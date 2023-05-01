@@ -3115,12 +3115,12 @@ const struct BaseStats gBaseStats[] =
 
 	[SPECIES_ONIX] =
 	{
-		.baseHP 		= 50,
-		.baseAttack 	= 60,
-		.baseDefense 	= 160,
-		.baseSpAttack 	= 50,
-		.baseSpDefense 	= 60,
-		.baseSpeed 		= 75,
+		.baseHP 		= 60,
+		.baseAttack 	= 100,
+		.baseDefense 	= 120,
+		.baseSpAttack 	= 20,
+		.baseSpDefense 	= 80,
+		.baseSpeed 		= 120,
 		.type1 = TYPE_ROCK,
 		.type2 = TYPE_GROUND,
 		.catchRate = 45,
@@ -6844,12 +6844,12 @@ const struct BaseStats gBaseStats[] =
 
 	[SPECIES_STEELIX] =
 	{
-		.baseHP 		= 75,
-		.baseAttack 	= 85,
+		.baseHP 		= 70,
+		.baseAttack 	= 70,
 		.baseDefense 	= 200,
-		.baseSpAttack 	= 60,
-		.baseSpDefense 	= 75,
-		.baseSpeed 		= 50,
+		.baseSpAttack 	= 20,
+		.baseSpDefense 	= 120,
+		.baseSpeed 		= 20,
 		.type1 = TYPE_STEEL,
 		.type2 = TYPE_GROUND,
 		.catchRate = 25,
@@ -6871,7 +6871,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_ROCKHEAD,
 		.ability2 = ABILITY_STURDY,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_SHEERFORCE,
+		.hiddenAbility = ABILITY_SOLIDROCK,
 		.noFlip = TRUE,
 	},
 
